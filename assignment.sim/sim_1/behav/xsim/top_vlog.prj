@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../assignment.srcs/sources_1/new/birth_play.v" \
+"../../../../assignment.srcs/sources_1/new/debounce_b.v" \
+"../../../../assignment.srcs/sources_1/new/little_star_play.v" \
+"../../../../assignment.srcs/sources_1/new/music_ctrl.v" \
+"../../../../assignment.srcs/sources_1/new/play_try.v" \
+"../../../../assignment.srcs/sources_1/new/top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
